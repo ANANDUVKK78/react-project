@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Components testing Table component 1`] = `
+<table>
+  <tr />
+</table>
+`;
+
+exports[`Testing Components testing button component 1`] = `
+<button>
+  reg
+</button>
+`;
+
+exports[`Testing Components testing label component 1`] = `<label />`;
+
+exports[`Testing Components testing textbox component 1`] = `<input />`;

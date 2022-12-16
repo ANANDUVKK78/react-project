@@ -1,0 +1,110 @@
+.list-cover {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.title-sec {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-sec {
+    background-color: rgb(10, 166, 228);
+    height: 80px;
+    color: white;
+    font-size: 31px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-txt {
+    float: left;
+    font-size: 18px;
+    color: rgb(83, 79, 79);
+    font-weight: bold;
+}
+
+.add-btn {
+    border: transparent;
+    border-radius: 5px;
+    width: 105px;
+    height: 29px;
+    background-color: rgb(10, 166, 228);
+    color: white;
+    position: absolute;
+    right: 7px;
+    font-weight: bold;
+    &:hover,&:focus {
+        cursor: pointer;
+    }
+}
+
+.list-body {
+    margin-top: 28px;
+    height: 10%;
+}
+
+.srch-bar {
+    float: left;
+    height: 31px;
+    border: 1px solid #0aa6e4;
+    width: 440px;
+    margin-left: 68%;
+}
+
+.srch-btn {
+    position: absolute;
+    width: 96px;
+    height: 35px;
+    background-color: #0aa6e4;
+    color: white;
+    border: transparent;
+    font-size: 15px;
+    &:hover,&:focus{
+        cursor: pointer;
+    }
+}
+
+.cstm-table {
+    border: 1px solid #0aa6e4;
+    width: 94%;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.table-header {
+    background-color: #0aa6e4;
+    color: white;
+    text-align: left;
+    height: 34px;
+}
+
+.height-33 {
+    height: 33px;
+}
+
+.width10 {
+    width: 10%;
+}
+
+.empty-text {
+    color: red;
+    font-weight: bold;
+}
+
+.cstm-icon{
+    color:#0aa6e4;
+    cursor: pointer;
+}
+
+.left-5{
+    margin-left: 5px;
+
+}

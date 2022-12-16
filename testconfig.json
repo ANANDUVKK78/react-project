@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "moduleNameMapper": {
+        "^.+\\.(css|less|scss)$": "identity-obj-proxy"
+    },
+    
+
+    "testMatch": [
+        "**/**/**.test.ts?(x)"
+    ],
+    "moduleDirectories": ["src", "node_modules"]
+}
+

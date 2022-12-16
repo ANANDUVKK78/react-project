@@ -1,0 +1,129 @@
+.cover{
+    background-color: rgb(34, 229, 255);
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+.reg-container {
+    height: 540px;
+    width: 848px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.reg-header {
+    font-size: 34px;
+    color: #1676e0e3;
+}
+
+.strongTxt {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-row {
+    position: relative;
+}
+
+.col {
+    display: inline-block;
+    width: 49%;
+}
+
+.cstm-textbox {
+    height: 44px;
+    margin-top: 10px;
+    border-color: #999c9e30;
+    border-width: 0.5px;
+}
+
+.cstm-textbox:focus {
+    outline-color: yellowgreen;
+}
+
+.top-30 {
+    margin-top: 30px;
+}
+
+.label-txt {
+    font-size: 15px;
+    color: #7d7a7a;
+}
+.full-width {
+    width: 88%;
+}
+
+.reg-btn {
+    background-color: #165fabbf;
+    width: 113px;
+    height: 37px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:disabled{
+        cursor: default;
+        background-color: #63788dbf;
+
+    }
+}
+
+.cancel-btn {
+    background-color: #165fabbf;
+    width: 113px;
+    height: 37px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+
+.top-40{
+    margin-top: 40px;
+}
+
+.size-80{
+    width:80%
+}
+
+.errtxt {
+    color: rgb(209, 52, 52);
+    font-size: 14px;
+    position: absolute;
+}
+
+::-webkit-inner-spin-button { display: none; }
+
+::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    cursor: pointer;
+}
+
+::-webkit-clear-button {
+    display: none;
+}
+
+
